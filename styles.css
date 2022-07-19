@@ -18,9 +18,10 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  margin: 0;
+  margin: 30px auto;
   padding: 0;
   text-align: center;
+  height: 100vh;
 }
 .card-container {
   max-width: 90%;
