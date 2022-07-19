@@ -93,6 +93,7 @@ p {
   width: 30px;
 }
 .price a {
+  color: var(--button-clr);
   margin-left: 30px;
 }
 .price a:hover {
