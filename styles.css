@@ -71,10 +71,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 50px;
 }
 .yearly-price span {
   display: block;
+  margin-right: 30px;
   margin-left: 10px;
 }
 .yearly-price span:first-child {
@@ -89,8 +89,7 @@ p {
   width: 30px;
 }
 .price a {
-  display: block;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 .price a:hover {
   text-decoration: none;
