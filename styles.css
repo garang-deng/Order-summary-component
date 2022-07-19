@@ -18,14 +18,14 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  margin: 30px auto;
+  margin: 10% auto;
   padding: 0;
   text-align: center;
   height: 100vh;
 }
 .card-container {
   max-width: 90%;
-  max-height: 120vh;
+  height: 100%;
   background: linear-gradient(
       hsla(225, 100%, 94%, 0.5),
       hsla(224, 23%, 55%, 0.5)
