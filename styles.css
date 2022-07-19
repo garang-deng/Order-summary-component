@@ -16,7 +16,7 @@
 }
 body {
   font-family: "Red Hat Display", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -50,15 +50,19 @@ body {
   max-width: 100%;
   border-radius: 10px 10px 0 0;
 }
+.text{
+  padding: 20px;
+}
 h1 {
   font-weight: 900;
   font-size: 1.475rem;
-  margin-top: 30px;
+  margin-top: 10px;
   color: var(--header-clr);
 }
 p {
   color: var(--p-clr);
   margin: 10px 0;
+  opacity: 0.6;
 }
 .price {
   display: flex;
@@ -79,10 +83,10 @@ p {
 }
 .yearly-price span:first-child {
   font-weight: 700;
-  font-size: 1.025rem;
 }
 .yearly-price span:last-child {
   color: var(--p-clr);
+  opacity: 0.6;
 }
 .yearly-price img {
   color: var(--card-bg);
@@ -119,13 +123,14 @@ p {
 }
 .payment a {
   font-weight: 700;
-  grid-column: 2/3;
+  grid-column: span 3;
   grid-row: 2;
   text-decoration: none;
   width: 100%;
   color: var(--p-clr);
-  margin-bottom: 20px;
+  opacity: 0.6;
 }
 .payment a:hover {
   color: var(--header-clr);
+  opacity: 1;
 }
